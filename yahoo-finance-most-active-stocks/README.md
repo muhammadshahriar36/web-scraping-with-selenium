@@ -100,6 +100,4 @@ This project demonstrates:
 
 This project is intended for educational and portfolio purposes only. Please respect Yahoo Finance's Terms of Service and robots.txt when scraping publicly available data.
 
-## Author
 
-**Shahriar**
