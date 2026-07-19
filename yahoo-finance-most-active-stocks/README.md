@@ -1,0 +1,105 @@
+# Real-World Web Scraping Project: Yahoo Finance Most Active Stocks
+
+A real-world web scraping project built with **Python**, **Selenium**, and **Pandas** to automate the collection of the **Most Active Stocks** data from Yahoo Finance.
+
+## Project Overview
+
+This project automates browser interactions to navigate through Yahoo Finance, access the **Most Active Stocks** page, scrape stock market data, clean and transform the collected information, and export the final dataset to an Excel file.
+
+## Features
+
+- Automated browser navigation using Selenium
+- Dynamic page interaction (hover menus and clicks)
+- Explicit waits for reliable page loading
+- Scrapes stock market data from Yahoo Finance
+- Cleans and transforms scraped data using Pandas
+- Converts data into appropriate numeric data types
+- Exports the processed dataset to Excel
+
+## Technologies Used
+
+- Python
+- Selenium
+- Pandas
+- OpenPyXL
+
+## Data Collected
+
+The scraper collects information such as:
+
+- Symbol
+- Company Name
+- Price (USD)
+- Price Change
+- Change (%)
+- Volume
+
+## Project Structure
+
+```
+yahoo-finance-most-active-stocks/
+│
+├── yahoo_finance_web_scraping_project.ipynb
+├── yahoo_finance_web_scraping_project_raw.ipynb
+├── yahoo-finance-stocks-data.xlsx
+├── requirements.txt
+└── README.md
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/web-scraping-with-selenium.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd web-scraping-with-selenium/yahoo-finance-most-active-stocks
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Required Libraries
+
+```text
+selenium
+pandas
+openpyxl
+```
+
+## Output
+
+The scraper generates an Excel file containing the cleaned stock market data.
+
+Example:
+
+```
+yahoo-finance-stocks-data.xlsx
+```
+
+## Learning Outcomes
+
+This project demonstrates:
+
+- Selenium Web Automation
+- Dynamic Web Scraping
+- Explicit Waits
+- ActionChains
+- Data Cleaning
+- Data Transformation
+- Excel File Generation using Pandas
+
+## Disclaimer
+
+This project is intended for educational and portfolio purposes only. Please respect Yahoo Finance's Terms of Service and robots.txt when scraping publicly available data.
+
+## Author
+
+**Shahriar**
